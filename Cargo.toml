@@ -1,0 +1,18 @@
+[package]
+name = "apitemplate"
+version = "0.1.0"
+edition = "2021"
+authors = ["Juan-luke Klopper"]
+
+[dependencies]
+chrono = "0.4.23"
+jsonwebtoken = { version = "8.1.1", default-features = false }
+lazy_static = "1.4.0"
+rocket = { version = "0.5.0", features = ["json"] }
+rocket_cors = "0.6.0"
+serde = { version = "1.0.148", features = ["derive"] }
+shuttle-rocket = "0.46.0"
+shuttle-runtime = "0.46.0"
+shuttle-shared-db = { version = "0.46.0", features = ["postgres", "sqlx"] }
+sqlx = { version = "0.7.1", features = ["chrono"] }
+tokio = "1.26.0"
