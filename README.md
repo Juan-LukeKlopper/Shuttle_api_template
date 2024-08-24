@@ -20,7 +20,7 @@ This template comes equipped with:
 To begin this incredible journey, follow these steps:
 
 1. Clone this repository onto your local machine using `git clone https://github.com/Juan-LukeKlopper/Shuttle_api_template.git`.
-2. Navigate into the project directory using `cd Shuttle_api_template.git` and install its dependencies with `cargo install`.
+2. Navigate into the project directory using `cd Shuttle_api_template.git`.
 3. If you're on Linux or MacOS, run `curl -sSfL https://www.shuttle.rs/install | bash` to install Shuttle.
 4. On Windows, use `iwr https://www.shuttle.rs/install-win | iex` or install it using cargo: `cargo install cargo-shuttle`.
 5. Log in with `cargo shuttle login` and deploy this example using `cargo shuttle project start` and `cargo shuttle deploy`.
